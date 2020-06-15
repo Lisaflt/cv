@@ -1,128 +1,13 @@
-#identite
-{
-   display : flex; 
+#identite {
+	display: flex;
 }
 
-#nomprenom
-{
-   margin-left : 100px; 
-
+#bordure {
+	display: flex;
 }
 
-.image
-{
-   margin-left : 50px; 
+#bordureGauche {
+	background-color: #ff8a65;
+	width: 25%;
+	min-width: 250px;
 }
-
-.formation
-{
-   margin-left: 400px;  
-}
-
-.profession
-{
-   padding-bottom :10px;  
-
-}
-
-.date
-{
-   margin-left :300px;  
-
-}
-
-#firstexp
-{
-   display : flex; 
-}
-
-.OPC
-{
-   margin-left: 155px;  
-}
-
-.OPC2
-{
-   margin-left: 120px;  
-}
-
-#secondexp
-{
-   display : flex; 
-}
-
-.pro
-{
-   margin-left : 400px; 
-}
-
-#professionnelles
-{
-   display : flex; 
-}
-
-.design 
-{
-   margin-left : 145px; 
-}
-
-#pro2
-{
-   display : flex; 
-}
-
-.date2
-{
-   margin-left :300px;  
-
-}
-
-.design2
-{
-   margin-left :170px;  
-
-}
-
-#pro3
-{
-   display : flex; 
-}
-
-.date3
-{
-   margin-left :300px;  
-
-}
-
-.design3
-{
-   margin-left :170px;  
-
-}
-
-#rec
-{
-   display : flex; 
-}
-
-.recommandations
-{
-   margin-left: 400px;  
-}
-
-.rec2
-{
-   margin-left :300px;  
-}
-
-.rec3
-{
-   margin-left :170px;  
-}
-
-#contact
-{
-    margin-left : 70px;
-     
-}
-
