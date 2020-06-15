@@ -1,5 +1,15 @@
+body {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ff8a65;
+	font-family: "Helvetica35Thin", arial, sans-serif;
+	max-width: 1080px;
+	margin: auto;
+}
+
 #identite {
 	display: flex;
+	align-items: center;
 }
 
 #bordure {
@@ -10,4 +20,40 @@
 	background-color: #ff8a65;
 	width: 25%;
 	min-width: 250px;
+}
+
+#maphoto {
+	background-color: #ff8a65;
+	width: 20%;
+	text-align: center;
+	min-width: 250px;
+}
+
+aside h3 {
+	background-color: #424242;
+	color: #ff8a65;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+aside p {
+	text-align: left;
+	margin-left: 30px;
+}
+
+.texte {
+	padding-bottom: 450px;
+	padding-top: 10px;
+}
+
+.photo {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.infos {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
