@@ -18,7 +18,7 @@ body {
 
 #bordureGauche {
 	background-color: #ff8a65;
-	width: 25%;
+	width: 20%;
 	min-width: 250px;
 }
 
@@ -56,4 +56,48 @@ aside p {
 .infos {
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.nom {
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.prenom {
+	color: #ff8a65;
+}
+
+.dev {
+	border-bottom: 2px solid #ff8a65;
+}
+
+#nomprenom {
+	line-height: 15px;
+	margin-left: 90px;
+}
+
+article h3 {
+	text-transform: uppercase;
+	border-bottom: 2px solid #ff8a65;
+	padding-bottom: 2px;
+}
+
+#bordureDroite {
+	margin-left: 25px;
+	width: 700px;
+}
+
+#recommandations {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.ecole {
+	width: 300px;
 }
