@@ -96,17 +96,40 @@ article h3 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding-top: 20px;
 }
 
 .ecole {
-	width: 400px;
+	width: 500px;
 }
 
 section h3 {
 	text-transform: uppercase;
+}
+
+section h4 {
+	text-transform: uppercase;
+}
+
+.fontAwesome {
+	display: flex;
+	align-items: center;
 	border-bottom: 2px solid #ff8a65;
 }
 
-.titre {
-	color: red;
+.icone {
+	font-size: 30px;
+	padding-right: 20px;
+	align-items: center;
+}
+
+.fontAwesomeDate {
+	display: flex;
+	align-items: baseline;
+}
+
+.iconeDates {
+	font-size: 10px;
+	color: #ff8a65;
+	padding-right: 10px;
 }
