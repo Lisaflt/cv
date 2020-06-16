@@ -44,7 +44,7 @@ aside p {
 }
 
 .texte {
-	padding-bottom: 450px;
+	padding-bottom: 350px;
 	padding-top: 10px;
 }
 
@@ -99,5 +99,14 @@ article h3 {
 }
 
 .ecole {
-	width: 300px;
+	width: 400px;
+}
+
+section h3 {
+	text-transform: uppercase;
+	border-bottom: 2px solid #ff8a65;
+}
+
+.titre {
+	color: red;
 }
