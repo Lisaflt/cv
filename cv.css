@@ -1,10 +1,13 @@
-body {
-	border-width: 1px;
-	border-style: solid;
-	border-color: #ff8a65;
+#blocPage {
 	font-family: "Helvetica35Thin", arial, sans-serif;
-	max-width: 1080px;
+	width: 900px;
 	margin: auto;
+}
+
+@media all and (max-width: 1024px) {
+	#blocPage {
+		width: auto;
+	}
 }
 
 #identite {
@@ -12,8 +15,22 @@ body {
 	align-items: center;
 }
 
+@media all and (max-width: 1024px) {
+	#identite {
+		flex-direction: column;
+	}
+}
+
 #bordure {
+	width: 1080px;
 	display: flex;
+	margin: auto;
+}
+
+@media all and (max-width: 1024px) {
+	#bordure {
+		flex-direction: column-reverse;
+	}
 }
 
 #bordureGauche {
@@ -22,11 +39,23 @@ body {
 	min-width: 250px;
 }
 
+@media all and (max-width: 1024px) {
+	#bordureGauche {
+		width: 100%;
+	}
+}
+
 #maphoto {
 	background-color: #ff8a65;
 	width: 20%;
 	text-align: center;
 	min-width: 250px;
+}
+
+@media all and (max-width: 1024px) {
+	#maphoto {
+		width: 100%;
+	}
 }
 
 aside h3 {
@@ -43,9 +72,22 @@ aside p {
 	margin-left: 30px;
 }
 
+@media all and (max-width: 1024px) {
+	aside p {
+		text-align: center;
+	}
+}
+
 .texte {
 	padding-bottom: 350px;
 	padding-top: 10px;
+	text-align: left;
+}
+
+@media all and (max-width: 1024px) {
+	.texte {
+		text-align: center;
+	}
 }
 
 .photo {
@@ -84,7 +126,13 @@ article h3 {
 
 #bordureDroite {
 	margin-left: 25px;
-	width: 700px;
+	width: 650px;
+}
+
+@media all and (max-width: 1024px) {
+	#bordureDroite {
+		width: 100%;
+	}
 }
 
 #recommandations {
@@ -132,4 +180,12 @@ section h4 {
 	font-size: 10px;
 	color: #ff8a65;
 	padding-right: 10px;
+}
+
+.emploi {
+	padding-top: 0px;
+}
+
+section p {
+	text-align: justify;
 }
