@@ -30,6 +30,7 @@
 @media all and (max-width: 1024px) {
 	#bordure {
 		flex-direction: column-reverse;
+		width: auto;
 	}
 }
 
@@ -41,6 +42,7 @@
 
 @media all and (max-width: 1024px) {
 	#bordureGauche {
+		min-width: 0px;
 		width: 100%;
 	}
 }
@@ -58,6 +60,12 @@
 	}
 }
 
+@media all and (max-width: 375px) {
+	#maphoto {
+		width: 100%;
+	}
+}
+
 aside h3 {
 	background-color: #424242;
 	color: #ff8a65;
@@ -68,25 +76,46 @@ aside h3 {
 }
 
 aside p {
-	text-align: left;
+	text-align: justify;
 	margin-left: 30px;
+	max-width: 200px;
 }
 
 @media all and (max-width: 1024px) {
 	aside p {
+		max-width: 700px;
 		text-align: center;
 	}
 }
 
-.texte {
-	padding-bottom: 350px;
-	padding-top: 10px;
-	text-align: left;
+@media all and (max-width: 770px) {
+	aside p {
+		max-width: 600px;
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 600px) {
+	aside p {
+		max-width: 375px;
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 375px) {
+	aside p {
+		max-width: 350px;
+		text-align: center;
+	}
+}
+
+.loisirs {
+	padding-top: 400px;
 }
 
 @media all and (max-width: 1024px) {
-	.texte {
-		text-align: center;
+	.loisirs {
+		padding-top: 0px;
 	}
 }
 
@@ -95,14 +124,15 @@ aside p {
 	padding-bottom: 30px;
 }
 
-.infos {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
 .nom {
 	text-transform: uppercase;
 	font-size: 50px;
+}
+
+@media all and (max-width: 375px) {
+	.nom {
+		font-size: 40px;
+	}
 }
 
 .prenom {
@@ -116,6 +146,18 @@ aside p {
 #nomprenom {
 	line-height: 15px;
 	margin-left: 90px;
+}
+
+@media all and (max-width: 770px) {
+	#nomprenom {
+		line-height: 50px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	#nomprenom {
+		margin-left: 0px;
+	}
 }
 
 article h3 {
@@ -132,6 +174,7 @@ article h3 {
 @media all and (max-width: 1024px) {
 	#bordureDroite {
 		width: 100%;
+		margin-left: 0px;
 	}
 }
 
@@ -147,8 +190,38 @@ article h3 {
 	padding-top: 20px;
 }
 
+@media all and (max-width: 1024px) {
+	.formation {
+		margin-right: 150px;
+	}
+}
+
+@media all and (max-width: 770px) {
+	.formation {
+		flex-direction: column;
+	}
+}
+
 .ecole {
 	width: 500px;
+}
+
+@media all and (max-width: 770px) {
+	.ecole {
+		width: 600px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.ecole {
+		width: 350px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.ecole {
+		width: 320px;
+	}
 }
 
 section h3 {
@@ -157,6 +230,15 @@ section h3 {
 
 section h4 {
 	text-transform: uppercase;
+}
+
+section ul {
+	font-size: 14px;
+	text-align: justify;
+}
+
+section p {
+	font-size: 14px;
 }
 
 .fontAwesome {
@@ -168,7 +250,6 @@ section h4 {
 .icone {
 	font-size: 30px;
 	padding-right: 20px;
-	align-items: center;
 }
 
 .fontAwesomeDate {
@@ -182,10 +263,11 @@ section h4 {
 	padding-right: 10px;
 }
 
-.emploi {
-	padding-top: 0px;
+.iconeLoisirs {
+	align-items: center;
+	font-size: 30px;
 }
 
-section p {
-	text-align: justify;
+.recommandation {
+	display: flex;
 }
