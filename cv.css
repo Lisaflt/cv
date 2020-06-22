@@ -4,21 +4,9 @@
 	margin: auto;
 }
 
-@media all and (max-width: 1024px) {
-	#blocPage {
-		width: auto;
-	}
-}
-
 #identite {
 	display: flex;
 	align-items: center;
-}
-
-@media all and (max-width: 1024px) {
-	#identite {
-		flex-direction: column;
-	}
 }
 
 #bordure {
@@ -27,24 +15,10 @@
 	margin: auto;
 }
 
-@media all and (max-width: 1024px) {
-	#bordure {
-		flex-direction: column-reverse;
-		width: auto;
-	}
-}
-
 #bordureGauche {
 	background-color: #ff8a65;
 	width: 20%;
 	min-width: 250px;
-}
-
-@media all and (max-width: 1024px) {
-	#bordureGauche {
-		min-width: 0px;
-		width: 100%;
-	}
 }
 
 #maphoto {
@@ -52,18 +26,6 @@
 	width: 20%;
 	text-align: center;
 	min-width: 250px;
-}
-
-@media all and (max-width: 1024px) {
-	#maphoto {
-		width: 100%;
-	}
-}
-
-@media all and (max-width: 375px) {
-	#maphoto {
-		width: 100%;
-	}
 }
 
 aside h3 {
@@ -81,42 +43,8 @@ aside p {
 	max-width: 200px;
 }
 
-@media all and (max-width: 1024px) {
-	aside p {
-		max-width: 700px;
-		text-align: center;
-	}
-}
-
-@media all and (max-width: 770px) {
-	aside p {
-		max-width: 600px;
-		text-align: center;
-	}
-}
-
-@media all and (max-width: 600px) {
-	aside p {
-		max-width: 375px;
-		text-align: center;
-	}
-}
-
-@media all and (max-width: 375px) {
-	aside p {
-		max-width: 350px;
-		text-align: center;
-	}
-}
-
 .loisirs {
 	padding-top: 400px;
-}
-
-@media all and (max-width: 1024px) {
-	.loisirs {
-		padding-top: 0px;
-	}
 }
 
 .photo {
@@ -127,12 +55,6 @@ aside p {
 .nom {
 	text-transform: uppercase;
 	font-size: 50px;
-}
-
-@media all and (max-width: 375px) {
-	.nom {
-		font-size: 40px;
-	}
 }
 
 .prenom {
@@ -148,18 +70,6 @@ aside p {
 	margin-left: 90px;
 }
 
-@media all and (max-width: 770px) {
-	#nomprenom {
-		line-height: 50px;
-	}
-}
-
-@media all and (max-width: 375px) {
-	#nomprenom {
-		margin-left: 0px;
-	}
-}
-
 article h3 {
 	text-transform: uppercase;
 	border-bottom: 2px solid #ff8a65;
@@ -169,13 +79,6 @@ article h3 {
 #bordureDroite {
 	margin-left: 25px;
 	width: 650px;
-}
-
-@media all and (max-width: 1024px) {
-	#bordureDroite {
-		width: 100%;
-		margin-left: 0px;
-	}
 }
 
 #recommandations {
@@ -190,39 +93,11 @@ article h3 {
 	padding-top: 20px;
 }
 
-@media all and (max-width: 1024px) {
-	.formation {
-		margin-right: 150px;
-	}
-}
-
-@media all and (max-width: 770px) {
-	.formation {
-		flex-direction: column;
-	}
-}
 
 .ecole {
-	width: 500px;
+	width: 80%;
 }
 
-@media all and (max-width: 770px) {
-	.ecole {
-		width: 600px;
-	}
-}
-
-@media all and (max-width: 600px) {
-	.ecole {
-		width: 350px;
-	}
-}
-
-@media all and (max-width: 375px) {
-	.ecole {
-		width: 320px;
-	}
-}
 
 section h3 {
 	text-transform: uppercase;
@@ -271,3 +146,153 @@ section p {
 .recommandation {
 	display: flex;
 }
+
+@media all and (max-width: 1024px) {
+	#blocPage {
+		width: auto;
+		margin-left: 5px;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#identite {
+		flex-direction: column;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#bordure {
+		flex-direction: column-reverse;
+		width: auto;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#bordureGauche {
+		min-width: 0px;
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#maphoto {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	aside p {
+		max-width: 700px;
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.loisirs {
+		padding-top: 0px;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#bordureDroite {
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+
+/*
+@media all and (max-width: 1024px) {
+	.formation {
+		margin-right: 100px;
+	}
+}
+*/
+
+@media all and (max-width: 720px) {
+	aside p {
+		max-width: 600px;
+		text-align: center;
+		margin-left:0px;
+	}
+}
+
+@media all and (max-width: 720px) {
+	#nomprenom {
+		line-height: 50px;
+	}
+}
+
+@media all and (max-width: 720px) {
+	.nom {
+		font-size: 40px;
+	}
+}
+
+@media all and (max-width: 720px) {
+	#nomprenom {
+		margin-left: 0px;
+	}
+}
+
+
+@media all and (max-width: 720px) {
+	.formation {
+		flex-direction: column;
+	}
+}
+
+@media all and (max-width: 720px) {
+	.ecole {
+		width:90%;
+	}
+}
+
+
+/*
+
+@media all and (max-width: 600px) {
+	aside p {
+		max-width: 375px;
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.ecole {
+		width: 350px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	#maphoto {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 375px) {
+	aside p {
+		max-width: 350px;
+		text-align: center;
+	}
+}
+
+
+@media all and (max-width: 375px) {
+	.nom {
+		font-size: 40px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	#nomprenom {
+		margin-left: 0px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.ecole {
+		width: 320px;
+	}
+}
+
+/*
