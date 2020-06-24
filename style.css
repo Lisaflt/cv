@@ -152,6 +152,7 @@ section p {
 	display: flex;
 	justify-content: space-around;
 	font-size: 30px;
+	margin-bottom: 10px;
 }
 
 .iconesHobbies {
@@ -171,102 +172,68 @@ section p {
 	#blocPage {
 		width: auto;
 	}
-}
 
-@media all and (max-width: 1024px) {
 	#identite {
 		flex-direction: column;
 	}
-}
 
-@media all and (max-width: 1024px) {
 	#bordure {
 		flex-direction: column-reverse;
 		width: auto;
 	}
-}
 
-@media all and (max-width: 1024px) {
 	#bordureGauche {
 		min-width: 0px;
 		width: 100%;
 	}
-}
 
-@media all and (max-width: 1024px) {
 	#photo {
 		width: 100%;
 	}
-}
 
-@media all and (max-width: 1024px) {
 	aside p {
 		max-width: 900px;
 		text-align: center;
 	}
-}
 
-@media all and (max-width: 1024px) {
 	.loisirs {
 		padding-top: 0px;
 	}
-}
 
-@media all and (max-width: 1024px) {
 	#bordureDroite {
 		width: 100%;
 		margin-left: 0px;
 	}
-}
 
-@media all and (max-width: 1024px) {
 	#nomprenom {
 		margin-left: 0px;
 	}
 }
-
-/*
-@media all and (max-width: 1024px) {
-	.formation {
-		margin-right: 100px;
-	}
-}
-*/
 
 @media all and (max-width: 720px) {
 	.contenuBordureDroite {
 		flex-direction: column;
 	}
-}
 
-@media all and (max-width: 720px) {
 	aside p {
 		max-width: 800px;
 		text-align: center;
 		margin-left: 0;
 	}
-}
 
-@media all and (max-width: 720px) {
 	#nomprenom {
 		line-height: 50px;
 		margin-left: 0px;
 	}
-}
 
-@media all and (max-width: 720px) {
 	.nom {
 		font-size: 40px;
 	}
-}
 
-@media all and (max-width: 720px) {
 	#nomprenom {
 		margin-left: 0px;
 	}
-}
 
-@media all and (max-width: 720px) {
 	.ecole {
 		width: 90%;
 	}
