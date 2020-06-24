@@ -22,21 +22,22 @@ html {
 }
 
 #bordureGauche {
-	background-color: #ff8a65;
+	background-color: #558d9e;
 	width: 20%;
-	min-width: 250px;
+	min-width: 300px;
 }
 
 #photo {
-	background-color: #ff8a65;
+	background-color: #558d9e;
 	width: 20%;
 	text-align: center;
-	min-width: 250px;
+	min-width: 300px;
+	padding-top: 20px;
 }
 
 aside h3 {
 	background-color: #424242;
-	color: #ff8a65;
+	color: #558d9e;
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 5px;
@@ -44,13 +45,14 @@ aside h3 {
 }
 
 aside p {
-	text-align: justify;
+	text-align: center;
 	margin-left: 30px;
-	max-width: 200px;
+	max-width: 240px;
+	font-weight: bold;
 }
 
 .loisirs {
-	padding-top: 400px;
+	padding-top: 420px;
 }
 
 .photo {
@@ -64,11 +66,11 @@ aside p {
 }
 
 .prenom {
-	color: #ff8a65;
+	color: #558d9e;
 }
 
 .dev {
-	border-bottom: 2px solid #ff8a65;
+	border-bottom: 2px solid #558d9e;
 }
 
 #nomprenom {
@@ -78,7 +80,7 @@ aside p {
 
 article h3 {
 	text-transform: uppercase;
-	border-bottom: 2px solid #ff8a65;
+	border-bottom: 2px solid #558d9e;
 	padding-bottom: 2px;
 }
 
@@ -97,6 +99,10 @@ article h3 {
 	flex-direction: row;
 	justify-content: space-between;
 	padding-top: 20px;
+}
+
+strong {
+	font-weight: bold;
 }
 
 .ecole {
@@ -123,7 +129,7 @@ section p {
 .titreBordureDroite {
 	display: flex;
 	align-items: center;
-	border-bottom: 2px solid #ff8a65;
+	border-bottom: 2px solid #558d9e;
 }
 
 .icone {
@@ -138,7 +144,7 @@ section p {
 
 .iconeDates {
 	font-size: 10px;
-	color: #ff8a65;
+	color: #558d9e;
 	padding-right: 10px;
 }
 
@@ -146,11 +152,10 @@ section p {
 	display: flex;
 	justify-content: space-around;
 	font-size: 30px;
-	color: #424242;
 }
 
 .iconesHobbies {
-	border: 2px solid #424242;
+	border: 2px solid;
 	border-radius: 50%;
 	width: 56px;
 	height: 45px;
@@ -159,12 +164,12 @@ section p {
 
 .recommandation {
 	display: flex;
+	justify-content: space-around;
 }
 
 @media all and (max-width: 1024px) {
 	#blocPage {
 		width: auto;
-		margin-left: 5px;
 	}
 }
 
