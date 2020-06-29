@@ -8,9 +8,10 @@ html {
 	font-family: "Open Sans", sans-serif;
 	width: 920px;
 	margin: auto;
+	border: solid 1px #558d9e;
 }
 
-#identite {
+.identite {
 	display: flex;
 	align-items: center;
 }
@@ -51,7 +52,7 @@ aside p {
 }
 
 .loisirs {
-	padding-top: 420px;
+	padding-top: 300px;
 }
 
 .photoCv {
@@ -86,6 +87,7 @@ article h3 {
 .bordureDroite {
 	margin-left: 25px;
 	width: 650px;
+	padding: 6px;
 }
 
 .contenuBordureDroite {
@@ -113,7 +115,6 @@ section h4 {
 
 section ul {
 	font-size: 14px;
-	text-align: justify;
 }
 
 section p {
@@ -165,6 +166,7 @@ section p {
 @media all and (max-width: 1024px) {
 	#blocPage {
 		width: auto;
+		border: none;
 	}
 
 	body,
@@ -173,7 +175,7 @@ section p {
 		margin-right: 5px;
 	}
 
-	#identite {
+	.identite {
 		flex-direction: column;
 	}
 
