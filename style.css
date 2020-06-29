@@ -6,7 +6,7 @@ html {
 
 #blocPage {
 	font-family: "Open Sans", sans-serif;
-	width: 900px;
+	width: 920px;
 	margin: auto;
 }
 
@@ -16,7 +16,6 @@ html {
 }
 
 .main {
-	width: 1080px;
 	display: flex;
 	margin: auto;
 }
@@ -163,7 +162,7 @@ section p {
 	justify-content: space-around;
 }
 
-@media all and (max-width: 1050px) {
+@media all and (max-width: 1024px) {
 	#blocPage {
 		width: auto;
 	}
