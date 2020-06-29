@@ -15,19 +15,19 @@ html {
 	align-items: center;
 }
 
-#bordure {
+.main {
 	width: 1080px;
 	display: flex;
 	margin: auto;
 }
 
-#bordureGauche {
+.bordureGauche {
 	background-color: #558d9e;
 	width: 20%;
 	min-width: 300px;
 }
 
-#photo {
+.photo {
 	background-color: #558d9e;
 	width: 20%;
 	text-align: center;
@@ -55,7 +55,7 @@ aside p {
 	padding-top: 420px;
 }
 
-.photo {
+.photoCv {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -73,7 +73,7 @@ aside p {
 	border-bottom: 2px solid #558d9e;
 }
 
-#nomprenom {
+.nomprenom {
 	line-height: 15px;
 	margin-left: 90px;
 }
@@ -84,14 +84,9 @@ article h3 {
 	padding-bottom: 2px;
 }
 
-#bordureDroite {
+.bordureDroite {
 	margin-left: 25px;
 	width: 650px;
-}
-
-#recommandations {
-	display: flex;
-	justify-content: space-between;
 }
 
 .contenuBordureDroite {
@@ -168,26 +163,32 @@ section p {
 	justify-content: space-around;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1050px) {
 	#blocPage {
 		width: auto;
+	}
+
+	body,
+	html {
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 	#identite {
 		flex-direction: column;
 	}
 
-	#bordure {
+	.main {
 		flex-direction: column-reverse;
 		width: auto;
 	}
 
-	#bordureGauche {
+	.bordureGauche {
 		min-width: 0px;
 		width: 100%;
 	}
 
-	#photo {
+	.photo {
 		width: 100%;
 	}
 
@@ -200,17 +201,23 @@ section p {
 		padding-top: 0px;
 	}
 
-	#bordureDroite {
+	.bordureDroite {
 		width: 100%;
 		margin-left: 0px;
 	}
 
-	#nomprenom {
+	.nomprenom {
 		margin-left: 0px;
 	}
 }
 
 @media all and (max-width: 720px) {
+	body,
+	html {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
 	.contenuBordureDroite {
 		flex-direction: column;
 	}
@@ -221,7 +228,7 @@ section p {
 		margin-left: 0;
 	}
 
-	#nomprenom {
+	.nomprenom {
 		line-height: 50px;
 		margin-left: 0px;
 	}
@@ -230,58 +237,7 @@ section p {
 		font-size: 40px;
 	}
 
-	#nomprenom {
-		margin-left: 0px;
-	}
-
 	.ecole {
 		width: 90%;
 	}
 }
-
-/*
-@media all and (max-width: 600px) {
-	aside p {
-		max-width: 375px;
-		text-align: center;
-	}
-}
-
-@media all and (max-width: 600px) {
-	.ecole {
-		width: 350px;
-	}
-}
-
-@media all and (max-width: 375px) {
-	#maphoto {
-		width: 100%;
-	}
-}
-
-@media all and (max-width: 375px) {
-	aside p {
-		max-width: 350px;
-		text-align: center;
-	}
-}
-
-
-@media all and (max-width: 375px) {
-	.nom {
-		font-size: 40px;
-	}
-}
-
-@media all and (max-width: 375px) {
-	#nomprenom {
-		margin-left: 0px;
-	}
-}
-
-@media all and (max-width: 375px) {
-	.ecole {
-		width: 320px;
-	}
-}
-*/
