@@ -16,7 +16,7 @@ html {
 	align-items: center;
 }
 
-.main {
+main {
 	display: flex;
 	margin: auto;
 }
@@ -179,7 +179,7 @@ section p {
 		flex-direction: column;
 	}
 
-	.main {
+	main {
 		flex-direction: column-reverse;
 		width: auto;
 	}
